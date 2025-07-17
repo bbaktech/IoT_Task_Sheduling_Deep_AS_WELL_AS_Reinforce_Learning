@@ -1,0 +1,101 @@
+Cluster-Fds (FogDevices)
+   ClusterFR:2    CPU Speed(MIPS):30 RAM(MB)3000
+   Cluster BandWidth:3
+   ClusterFR:3    CPU Speed(MIPS):10 RAM(MB)1000
+   Cluster BandWidth:1
+   ClusterFR:4    CPU Speed(MIPS):20 RAM(MB)2000
+   Cluster BandWidth:2
+   ClusterFR:5    CPU Speed(MIPS):30 RAM(MB)3000
+   Cluster BandWidth:3
+Sensor Devices 
+   Sensor_2_0 [Id:6] (Connected to ClusterFR:2)
+   Sensor_2_1 [Id:7] (Connected to ClusterFR:2)
+   Sensor_2_2 [Id:8] (Connected to ClusterFR:2)
+   Sensor_2_3 [Id:9] (Connected to ClusterFR:2)
+   Sensor_2_4 [Id:10] (Connected to ClusterFR:2)
+   Sensor_2_5 [Id:11] (Connected to ClusterFR:2)
+   Sensor_3_0 [Id:13] (Connected to ClusterFR:3)
+   Sensor_3_1 [Id:14] (Connected to ClusterFR:3)
+   Sensor_3_2 [Id:15] (Connected to ClusterFR:3)
+   Sensor_3_3 [Id:16] (Connected to ClusterFR:3)
+   Sensor_3_4 [Id:17] (Connected to ClusterFR:3)
+   Sensor_3_5 [Id:18] (Connected to ClusterFR:3)
+   Sensor_4_0 [Id:20] (Connected to ClusterFR:4)
+   Sensor_4_1 [Id:21] (Connected to ClusterFR:4)
+   Sensor_4_2 [Id:22] (Connected to ClusterFR:4)
+   Sensor_4_3 [Id:23] (Connected to ClusterFR:4)
+   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
+   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
+   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
+   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
+   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
+   Sensor_5_3 [Id:30] (Connected to ClusterFR:5)
+   Sensor_5_4 [Id:31] (Connected to ClusterFR:5)
+   Sensor_5_5 [Id:32] (Connected to ClusterFR:5)
+Actuater Devices
+   Actuater2 [Id:12]  (Connected to ClusterFR:2)
+   Actuater3 [Id:19]  (Connected to ClusterFR:3)
+   Actuater4 [Id:26]  (Connected to ClusterFR:4)
+   Actuater5 [Id:33]  (Connected to ClusterFR:5)
+Resource managemnt stratergy: AI_RM
+Simulation Started
+2025-07-16 09:04:06.353609: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\Users\Dell\anaconda3\Lib\site-packages\keras\src\saving\saving_lib.py:576: UserWarning: Skipping variable loading for optimizer 'rmsprop', because it has 2 variables whereas the saved optimizer has 344 variables.
+  saveable.load_own_variables(weights_store.get(inner_path))
+Alpha:0.3, Beta:0.3, Gama:0.4
+Simulation Completed
+-----------Results--------------------
+Total Simulation Time:4000
+Total Number of Slots:200
+Total Number of Tasks:14328
+
+max Timetaken for Tasks:50.01141666666893
+min Timetaken for Tasks:2.3333333333332575
+avg TimeTaken for Tasks:33.043934725709875
+
+Device:ClusterFR:2
+      Total Tasks Executed:1200
+      Total Busy Time:2405.2
+      Total Idle Time:1594.8000000000002
+      Total Time:4000.0
+      CPU Utilization:60.129999999999995
+      Total Power Utilised:412971.3628
+      Throughput:0.3
+
+Device:ClusterFR:3
+      Total Tasks Executed:1590
+      Total Busy Time:3634.2680000000114
+      Total Idle Time:365.7319999999886
+      Total Time:4000.0
+      CPU Utilization:90.85670000000029
+      Total Power Utilised:410856.70000000024
+      Throughput:0.3975
+
+Device:ClusterFR:4
+      Total Tasks Executed:1594
+      Total Busy Time:3451.630000000011
+      Total Idle Time:548.369999999989
+      Total Time:4000.0
+      CPU Utilization:86.29075000000027
+      Total Power Utilised:424645.6400000003
+      Throughput:0.3985
+
+Device:ClusterFR:5
+      Total Tasks Executed:1596
+      Total Busy Time:3355.40000000001
+      Total Idle Time:644.5999999999899
+      Total Time:4000.0
+      CPU Utilization:83.88500000000025
+      Total Power Utilised:441799.4806000003
+      Throughput:0.399
+
+Cloud executed :8306 Tasks
+       Time Used:2.257833333333333
+       Cost:0.022578333333333332
+
+
+You could see:
+              tasks-16-07-202509-04-02.txt for details on each tasks
+              slots-16-07-202509-04-02.txt for summary of each slot
+---------------------------------------

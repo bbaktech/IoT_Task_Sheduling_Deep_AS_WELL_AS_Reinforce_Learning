@@ -1,0 +1,99 @@
+Cluster-Fds (FogDevices)
+   ClusterFR:2    CPU Speed(MIPS):30 RAM(MB)3000
+   Cluster BandWidth:3
+   ClusterFR:3    CPU Speed(MIPS):10 RAM(MB)1000
+   Cluster BandWidth:1
+   ClusterFR:4    CPU Speed(MIPS):20 RAM(MB)2000
+   Cluster BandWidth:2
+   ClusterFR:5    CPU Speed(MIPS):30 RAM(MB)3000
+   Cluster BandWidth:3
+Sensor Devices 
+   Sensor_2_0 [Id:6] (Connected to ClusterFR:2)
+   Sensor_2_1 [Id:7] (Connected to ClusterFR:2)
+   Sensor_2_2 [Id:8] (Connected to ClusterFR:2)
+   Sensor_2_3 [Id:9] (Connected to ClusterFR:2)
+   Sensor_2_4 [Id:10] (Connected to ClusterFR:2)
+   Sensor_2_5 [Id:11] (Connected to ClusterFR:2)
+   Sensor_3_0 [Id:13] (Connected to ClusterFR:3)
+   Sensor_3_1 [Id:14] (Connected to ClusterFR:3)
+   Sensor_3_2 [Id:15] (Connected to ClusterFR:3)
+   Sensor_3_3 [Id:16] (Connected to ClusterFR:3)
+   Sensor_3_4 [Id:17] (Connected to ClusterFR:3)
+   Sensor_3_5 [Id:18] (Connected to ClusterFR:3)
+   Sensor_4_0 [Id:20] (Connected to ClusterFR:4)
+   Sensor_4_1 [Id:21] (Connected to ClusterFR:4)
+   Sensor_4_2 [Id:22] (Connected to ClusterFR:4)
+   Sensor_4_3 [Id:23] (Connected to ClusterFR:4)
+   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
+   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
+   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
+   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
+   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
+   Sensor_5_3 [Id:30] (Connected to ClusterFR:5)
+   Sensor_5_4 [Id:31] (Connected to ClusterFR:5)
+   Sensor_5_5 [Id:32] (Connected to ClusterFR:5)
+Actuater Devices
+   Actuater2 [Id:12]  (Connected to ClusterFR:2)
+   Actuater3 [Id:19]  (Connected to ClusterFR:3)
+   Actuater4 [Id:26]  (Connected to ClusterFR:4)
+   Actuater5 [Id:33]  (Connected to ClusterFR:5)
+Resource managemnt stratergy: GA_RM
+Simulation Started
+2025-07-16 08:54:09.976638: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Alpha:0.3, Beta:0.3, Gama:0.4
+Simulation Completed
+-----------Results--------------------
+Total Simulation Time:4000
+Total Number of Slots:200
+Total Number of Tasks:14328
+
+max Timetaken for Tasks:50.011104166665476
+min Timetaken for Tasks:2.3333333333332575
+avg TimeTaken for Tasks:32.21202994864275
+
+Device:ClusterFR:2
+      Total Tasks Executed:1598
+      Total Busy Time:3376.7000000000066
+      Total Idle Time:623.2999999999934
+      Total Time:4000.0
+      CPU Utilization:84.41750000000016
+      Total Power Utilised:442445.7013000002
+      Throughput:0.3995
+
+Device:ClusterFR:3
+      Total Tasks Executed:1545
+      Total Busy Time:3719.5980000000027
+      Total Idle Time:280.4019999999973
+      Total Time:4000.0
+      CPU Utilization:92.98995000000006
+      Total Power Utilised:412989.95000000007
+      Throughput:0.38625
+
+Device:ClusterFR:4
+      Total Tasks Executed:1597
+      Total Busy Time:3465.955000000002
+      Total Idle Time:534.0449999999978
+      Total Time:4000.0
+      CPU Utilization:86.64887500000006
+      Total Power Utilised:425046.74000000005
+      Throughput:0.39925
+
+Device:ClusterFR:5
+      Total Tasks Executed:1598
+      Total Busy Time:3377.2666666666723
+      Total Idle Time:622.7333333333277
+      Total Time:4000.0
+      CPU Utilization:84.4316666666668
+      Total Power Utilised:442462.8934000002
+      Throughput:0.3995
+
+Cloud executed :7950 Tasks
+       Time Used:2.1369166666666666
+       Cost:0.021369166666666665
+
+
+You could see:
+              tasks-16-07-202508-54-03.txt for details on each tasks
+              slots-16-07-202508-54-03.txt for summary of each slot
+---------------------------------------

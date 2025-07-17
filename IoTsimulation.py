@@ -4,7 +4,7 @@ import random
 import numpy as np
 
 #import RLAgent
-from config import MAX_JOBS, MAX_RS, MAX_SIMULATION_TIME, RM_TYPE, SENSERS_PER_CLUSTER, SLOT_TIME
+from config import AI_RM, ALPHA, BETA, DEFAULT_RM, GAMA, MAX_JOBS, MAX_RS, MAX_SIMULATION_TIME, RM_TYPE, SENSERS_PER_CLUSTER, SLOT_TIME
 from devices import Actuater,Sensor, FogDevice,cs, Job, logentry, jobsTimetracker,tasksTimetracker,resource_mg_string
 from GeneticAlg import Chromosome,GeneticAlgorithm
 from DL_MODEL import _build_model
@@ -51,7 +51,8 @@ def  getClusterFromID(id):
 
 print("Cluster-Fds (FogDevices)")
 for device in  ClusterRs:
-    print("   " + device.name + "    CPU Speed:" + str(device.cpu_speed) )
+    print("   " + device.name + "    CPU Speed(MIPS):" + str(device.cpu_speed) +" RAM(MB)" +str(device.ram))
+    print("   " + "Cluster BandWidth:" + str(device.bandwidth ))
 print("Sensor Devices " )
 for device in Sensors:
     print ("   "+device.name +' [Id:' +str(device.id) + "] (Connected to ClusterFR:"+ str(device.connected_cl_id) + ")")
@@ -66,7 +67,7 @@ sim_time = 0.
 
 # write dataset header
 for ds in range(MaxTasksInSlot):
-    logentry.writeToDataset('TaskType, TaskSize, Device-Id,')
+    logentry.writeToDataset('TaskType, TaskCodeSize, TaskDataSize,')
 
 for ds in range(MaxTasksInSlot):
     logentry.writeToDataset(' Resource_Id,')
@@ -75,7 +76,11 @@ logentry.writeToDataset('\n')
 
 #deep learning AI resource manager
 model = _build_model()
-model.load_weights('DL_MODULE_4RMV1.weights.h5')
+if RM_TYPE == AI_RM:
+    model.load_weights('DL_MODULE_4RMV1.weights.h5')
+
+if RM_TYPE != DEFAULT_RM:
+    print ('Alpha:'+ str(ALPHA)+ ', Beta:'+str(BETA) + ', Gama:'+str(GAMA) )
 
 while MAX_SIMULATION_TIME > sim_time:
 
@@ -130,12 +135,12 @@ while MAX_SIMULATION_TIME > sim_time:
 
                 for j in range(len(jobQ)):
                     tp = jobQ[j].get_type()
-                    sz = jobQ[j].get_size()
-                    dev = jobQ[j].get_devise()
+                    sz = jobQ[j].get_codesize()
+                    dsz = jobQ[j].get_dataBytes()
                     
                     list_tasks.append(tp)
                     list_tasks.append(sz)
-                    list_tasks.append(dev)
+                    list_tasks.append(dsz)
                     
 #                print ('slot no:' + str(sl_no) + ' No Tasks:'+ str(len_ofjobQ))    
                 for r in range(MaxTasksInSlot - len_ofjobQ):
@@ -159,6 +164,8 @@ while MAX_SIMULATION_TIME > sim_time:
                         cs.ExecutesJob(jobQ[j],sim_time,sl_no)                        
                     else :
                         ClusterRs[FR_ID-2].ExecutesJob(jobQ[j],sim_time,sl_no)
+                    if sz==0:
+                        jobQ[j].NoValidTask = True
                   
     for r in range(MaxTasksInSlot - len_ofjobQ):
         logentry.writeToDataset(' 0 , 0, 0,')

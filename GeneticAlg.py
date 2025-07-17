@@ -1,5 +1,6 @@
+
 import random
-from config import LATENCY_CS_FR, LATENCY_ED_FR, MAX_SIMULATION_TIME, NO_INSTRUCTIONS1, SLOT_TIME
+from config import ALPHA, BETA, CLOUD_COST_UNIT_TIME, GAMA, LATENCY_CS_FR, LATENCY_ED_FR, RAM_SWAP_UNIT
 from devices import cs,logentry
 
 N_CHROMOSOMES = 8
@@ -13,7 +14,11 @@ class Chromosome  :
         self.jbs = jbs
         #table must store total instructions needs to be exicuted insterd of 1
         self.tbl = [[0 for columns in range( self.n_r+1)] for rows in range(self.n_j)]
-        self.LatencyFitnes = 0.                                                          
+        self.Fitnes = 0.
+        self.LatencyFitnes = 0.
+        self.CostFitnes = 0.
+        self.EnergyFitnes = 0.
+
         self.randomInit()
 #       self.printassignment()
 
@@ -27,16 +32,58 @@ class Chromosome  :
                 self.tbl[i][j] = p.tbl[i][j]         
 
     def Fitness(self):
+        self.Fitnes = 0.
+        self.DelayFitness()
+        self.EnergyFitness()
+        self.CostFitness()
+        self.Fitnes = self.LatencyFitnes * ALPHA + self.EnergyFitnes * BETA +  self.CostFitnes * GAMA
+
+    def DelayFitness(self):
         self.LatencyFitnes = 0.
+        for i in range(self.n_j ):
+            #job id is passed to get assigned resource id from GA assignment tabel
+            FR_ID = self.getRs(i)
+            fg_dev = None
+            if FR_ID == None:
+                self.LatencyFitnes = self.LatencyFitnes + LATENCY_ED_FR
+            elif FR_ID < len(self.rs):
+                t_id = self.jbs[i].getDestinatinFogID()
+                for device in  self.rs:
+                    if device.id == t_id:
+                         fg_dev = device
+                swap_ram_no = (self.jbs[i].get_noInstructions() + self.jbs[i].get_dataBytes()) / self.rs[FR_ID].getRAM()
+                swap_time = RAM_SWAP_UNIT
+                if swap_ram_no >1:
+                    swap_time = RAM_SWAP_UNIT * swap_ram_no
+                self.LatencyFitnes = self.LatencyFitnes + self.jbs[i].get_noInstructions() / self.rs[FR_ID].get_CPUSpeed() + LATENCY_ED_FR / fg_dev.getBANDWIDTH() + swap_time
+                #bandwidth of receiving fog dev self.jbs[i].getDestinatinFogID() figer out technic for not applying band width for 2nd onwords tasks
+            else:
+                self.LatencyFitnes = self.LatencyFitnes + self.jbs[i].get_noInstructions() / cs.get_CPUSpeed() + LATENCY_CS_FR
+
+    def EnergyFitness(self):
+        self.EnergyFitnes = 0.
         for i in range(self.n_j ):
             #job id is passed to get assigned resource id
             FR_ID = self.getRs(i)
             if FR_ID == None:
-                self.LatencyFitnes = self.LatencyFitnes + LATENCY_ED_FR
+                pass
             elif FR_ID < len(self.rs):
-                self.LatencyFitnes = self.LatencyFitnes + self.jbs[i].get_noInstructions() / self.rs[FR_ID].get_CPUSpeed() + LATENCY_ED_FR
+                self.EnergyFitnes = self.EnergyFitnes + self.jbs[i].get_noInstructions() / self.rs[FR_ID].get_CPUSpeed() * self.rs[FR_ID].busy_power 
             else:
-                self.LatencyFitnes = self.LatencyFitnes + self.jbs[i].get_noInstructions() / cs.get_CPUSpeed() + LATENCY_CS_FR
+                pass
+
+    def CostFitness(self):
+        self.CostFitnes = 0.
+        for i in range(self.n_j ):
+            #job id is passed to get assigned resource id
+            FR_ID = self.getRs(i)
+            if FR_ID == None:
+                pass
+            elif FR_ID < len(self.rs):
+                pass
+            else:
+                self.CostFitnes = self.CostFitnes + self.jbs[i].get_noInstructions() / cs.get_CPUSpeed() * CLOUD_COST_UNIT_TIME
+
 
 #you need to re write ths code for corrct dev id
     def getRs(self,j):
@@ -97,7 +144,7 @@ class Chromosome  :
                     self.tbl[j][r] = 0
 #                    print("Adjusted")
         self.Fitness()        
-        if self.LatencyFitnes > p.LatencyFitnes:
+        if self.Fitnes > p.Fitnes:
             self.copyfrom(p)
     
     def Find_FogDev(self, sz):
@@ -122,7 +169,7 @@ class GeneticAlgorithm:
             selection_ix = random.randint(0,len(pop)-1)
             for ix in range(0 , len(pop)-1, 3):
                 # check if better (e.g. perform a tournament)
-                if pop[ix].LatencyFitnes < pop[selection_ix].LatencyFitnes:
+                if pop[ix].Fitnes < pop[selection_ix].Fitnes:
                     selection_ix = ix
             ret = pop[selection_ix]
             del pop[selection_ix]
@@ -158,7 +205,7 @@ class GeneticAlgorithm:
             CRMs.append(ch)
         itr = 0
 #        print ([CRMs[i].LatencyFitnes for i in range (N_CHROMOSOMES)])
-        CRMs.sort(key=lambda Chromosome: Chromosome.LatencyFitnes)
+        CRMs.sort(key=lambda Chromosome: Chromosome.Fitnes)
         self.BESTCRM =  CRMs[0]
         while itr < MAX_ITERATIONS:
             itr += 1
@@ -189,7 +236,7 @@ class GeneticAlgorithm:
             # replace population
 #            print ('replace population----------->')
             CRMs = children
-            CRMs.sort(key=lambda Chromosome: Chromosome.LatencyFitnes)
+            CRMs.sort(key=lambda Chromosome: Chromosome.Fitnes)
 #            print ([CRMs[i].LatencyFitnes for i in range (len(CRMs))])
 #            print("BEST-IT"+str(itr))
 #            CRMs[0].printassignment()

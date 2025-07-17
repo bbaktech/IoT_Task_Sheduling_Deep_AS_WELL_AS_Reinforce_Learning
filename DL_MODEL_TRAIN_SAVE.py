@@ -11,13 +11,13 @@ MAX_JOBS = 85
 JOB_ATTRIBUTES = 3
 MAX_RS = 6
 
-df1 = pandas.read_csv('DataSet2.csv')
+df1 = pandas.read_csv('DataSet3.csv')
 X = df1.iloc[:, :MAX_JOBS*3]
 x = np.array(X).astype(np.int32)
 
 Y = []
 for y in range(MAX_JOBS):
-    res = df1.iloc[:, MAX_JOBS*3 + y:MAX_JOBS *JOB_ATTRIBUTES +1+y]
+    res = df1.iloc[:, MAX_JOBS*JOB_ATTRIBUTES + y:MAX_JOBS *JOB_ATTRIBUTES +1+y]
     res = np.array(res).astype(np.int32)
     Y.append(res)
 

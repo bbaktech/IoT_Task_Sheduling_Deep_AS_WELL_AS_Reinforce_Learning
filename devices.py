@@ -1,6 +1,6 @@
 
 from datetime import datetime 
-from config import ACTUATER_TYPE, CAMRA_PRO, CLOUD_COST_UNIT_TIME, CLOUD_CPU_SPEED, CPU_SPEED1, CPU_SPEED2, CPU_SPEED3,  FD_CAPACITY1, FD_CAPACITY2, FD_CAPACITY3, GPSPOS_PRO, INDLOOP_PRO, LATENCY_CS_FR, LATENCY_ED_FR, MAX_SIMULATION_TIME, MICWAVE_PRO, NO_INSTRUCTIONS1, NO_INSTRUCTIONS2, NO_INSTRUCTIONS3, NO_INSTRUCTIONS4, ROAD_DISPLAY, SENSER_TYPE, SLOT_TIME
+from config import ACTUATER_TYPE, CAMRA_PRO, CLOUD_COST_UNIT_TIME, CLOUD_CPU_SPEED, CPU_SPEED1, CPU_SPEED2, CPU_SPEED3, DATA_SIZE1, DATA_SIZE2, DATA_SIZE3, DATA_SIZE4, FD_BANDWIDTH1, FD_BANDWIDTH2, FD_BANDWIDTH3,  FD_CAPACITY1, FD_CAPACITY2, FD_CAPACITY3, FD_RAM1, FD_RAM2, FD_RAM3, GPSPOS_PRO, INDLOOP_PRO, INTERVEL_GAP, LATENCY_CS_FR, LATENCY_ED_FR, MAX_SIMULATION_TIME, MICWAVE_PRO, NO_INSTRUCTIONS1, NO_INSTRUCTIONS2, NO_INSTRUCTIONS3, NO_INSTRUCTIONS4, RAM_SWAP_UNIT, ROAD_DISPLAY, SENSER_TYPE, SLOT_TIME
 import random
 
 g_jobserno = 0
@@ -96,39 +96,50 @@ class Task:
         self.slot_no = slotno
 
         self.fd_devid = 0
-        self.sensor_id = sr # change to source device
+        self.sensor_id = sr # source or creater device id
 
         self.duration = 0.
         self.delay = 0
         self.sb_timestamp = 0.
         self.time_taken = 0.
-    
-        self.destId = 0
+        
+        self.destId = 0 #executer Id
         self.dataBytes = 0
         
         match tsktype:
             case 1:
                 self.no_instructions = NO_INSTRUCTIONS1
+                self.dataBytes = DATA_SIZE1
             case 2:
                 self.no_instructions = NO_INSTRUCTIONS2
+                self.dataBytes = DATA_SIZE2
             case 3:
                 self.no_instructions = NO_INSTRUCTIONS3
+                self.dataBytes = DATA_SIZE3
             case 4:
                 self.no_instructions = NO_INSTRUCTIONS4
+                self.dataBytes = DATA_SIZE4
             case 5:
                 self.no_instructions = 0
+                self.dataBytes = 0
             case 6:
                 self.no_instructions = 0
+                self.dataBytes = 0
             case 7:
                 self.no_instructions = NO_INSTRUCTIONS1
+                self.dataBytes = DATA_SIZE1
             case 8:
                 self.no_instructions = NO_INSTRUCTIONS2
+                self.dataBytes = DATA_SIZE2
             case 9:
                 self.no_instructions = NO_INSTRUCTIONS3
+                self.dataBytes = DATA_SIZE3
             case 10:
                 self.no_instructions = NO_INSTRUCTIONS4
+                self.dataBytes = DATA_SIZE4
             case _:
                 self.no_instructions = 0
+                self.dataBytes = 0
     def get_noInstructions(self):
         return self.no_instructions
     def get_dataBytes(self):
@@ -145,7 +156,7 @@ class Task:
         logentry.writeTaskDetails(strVal)
 
     def writeDataset(self):
-        logentry.writeToDataset(str(self.task_type-1) +', '+ str(self.no_instructions) +', '+str(self.sensor_id) +', ' )
+        logentry.writeToDataset(str(self.task_type-1) +', '+ str(self.no_instructions) +', '+str(self.dataBytes) +', ' )
 
     def setSlotNo(self, sn):
         self.slot_no = sn
@@ -214,11 +225,12 @@ class Job:
         self.slot_noFi = sn
 
 #set the delay and execution duration to job
-    def setExecutionDetails(self, delay, dst, speed,slotno):
+#delay to start task, ram swap time, executer resource_id, cpu_speed , current slot numbrer
+    def setExecutionDetails(self, delay,swap_time, dst, speed,slotno):
         
         self.tsk.setExecutionstarttime(delay)
         self.tsk.destId = dst
-        duration = self.tsk.no_instructions / speed
+        duration = self.tsk.no_instructions / speed + swap_time
 
         self.tsk.setExecutionduration(duration)
         self.tsk.writeDetails()
@@ -254,7 +266,13 @@ class Job:
         t_type = self.tsk.get_tasktype()
         return t_type
 
+    def get_dataBytes(self):
+        return self.tsk.get_dataBytes()
+    
     def get_size(self):
+        return self.get_noInstructions()
+    
+    def get_codesize(self):
         return self.get_noInstructions()
     
     def get_devise(self):
@@ -352,7 +370,8 @@ class Cloud:
         if (self.devTime.get_time() < sim_time+SLOT_TIME):
             self.slot_no_task_ex += 1
             jb.set_ex_devid(self.id)
-            duration = jb.setExecutionDetails(LATENCY_CS_FR + self.devTime.get_time() - sim_time, self.id, self.cpu_speed,slotno)
+            swap_time = 0
+            duration = jb.setExecutionDetails(LATENCY_CS_FR + self.devTime.get_time() - sim_time,swap_time,self.id, self.cpu_speed,slotno)
             self.devTime.add_time(duration)
             self.slot_busy_time = self.slot_busy_time + duration
         else:
@@ -386,9 +405,12 @@ class FogDevice :
         self.total_time = 0.
         self.total_Comp_time = 0.
         self.noTasksExecuted = 0
+
         self.cores =3
         self.busy_power = 107.339
         self.idle_power = 83.4333
+        self.bandwidth = FD_BANDWIDTH1
+        self.ram = FD_RAM1
 
         #slot level variables
         self.slot_no_task_ex= 0
@@ -399,18 +421,26 @@ class FogDevice :
             case 0:
                 self.no_core = FD_CAPACITY1
                 self.cpu_speed = CPU_SPEED1
+                self.bandwidth = FD_BANDWIDTH1
+                self.ram = FD_RAM1
                 self.busy_power = 105.00
                 self.idle_power = 80.00
+
             case 1:
                 self.no_core = FD_CAPACITY2
                 self.cpu_speed = CPU_SPEED2
+                self.bandwidth = FD_BANDWIDTH2
+                self.ram = FD_RAM2
                 self.busy_power = 110.00
                 self.idle_power = 82.00
             case 2:
                 self.no_core = FD_CAPACITY3
                 self.cpu_speed = CPU_SPEED3
+                self.bandwidth = FD_BANDWIDTH3
+                self.ram = FD_RAM3
                 self.busy_power = 115.339
                 self.idle_power = 85.00
+                
         self.Ex_capicity = self.cpu_speed *SLOT_TIME
 
     def get_Ex_capicity(self):
@@ -421,6 +451,10 @@ class FogDevice :
         return self.busy_power
     def get_iPower(self):
         return self.idle_power
+    def getBANDWIDTH(self):
+        return self.bandwidth
+    def getRAM(self):
+        return self.ram
     
     def clean(self,sim_time):
 #        self.slot_core_balance = 0
@@ -430,10 +464,15 @@ class FogDevice :
         
     def ExecutesJob(self,jb,sim_time,slotno):
 
-        if (self.devTime.get_time() < sim_time+SLOT_TIME):
+        swap_ram_no = (jb.get_noInstructions() + jb.get_dataBytes()) / self.getRAM()
+        swap_time = RAM_SWAP_UNIT
+        if swap_ram_no >1:
+            swap_time = RAM_SWAP_UNIT * swap_ram_no
+
+        if (self.devTime.get_time() < sim_time+SLOT_TIME-(INTERVEL_GAP+swap_time)):
             self.slot_no_task_ex += 1
             jb.set_ex_devid(self.id)
-            duration = jb.setExecutionDetails(LATENCY_ED_FR + self.devTime.get_time() -sim_time, self.id, self.cpu_speed,slotno)
+            duration = jb.setExecutionDetails(LATENCY_ED_FR /self.bandwidth  + self.devTime.get_time() - sim_time,swap_time, self.id, self.cpu_speed,slotno)
             self.devTime.add_time(duration)
             self.slot_busy_time = self.slot_busy_time + duration
         else:
