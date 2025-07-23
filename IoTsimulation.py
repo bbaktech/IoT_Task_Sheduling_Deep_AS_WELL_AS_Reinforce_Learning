@@ -107,9 +107,13 @@ while MAX_SIMULATION_TIME > sim_time:
         match RM_TYPE:
             case 0:
                 for job in jobQ:
+                    sz1 = job.get_size()
                     clustrFogNode = getClusterFromID(job.getDestinatinFogID())
                     if clustrFogNode != None:
                         clustrFogNode.ExecutesJob(job,sim_time,sl_no)
+                    if sz1 == 0:
+                        job.NoValidTask = True
+                    
             case 1:
             #GA resource manager
                 GA = GeneticAlgorithm(ClusterRs,jobQ)
@@ -153,7 +157,7 @@ while MAX_SIMULATION_TIME > sim_time:
 
                 for j in range(len(jobQ)):
                     FR_ID = np.argmax(result[j][0])
-                    sz = jobQ[j].get_size()
+                    sz1 = jobQ[j].get_size()
                     if FR_ID==None :
                         jobQ[j].writetoDataset()
                         jobQ[j].NoValidTask = True
@@ -164,7 +168,7 @@ while MAX_SIMULATION_TIME > sim_time:
                         cs.ExecutesJob(jobQ[j],sim_time,sl_no)                        
                     else :
                         ClusterRs[FR_ID-2].ExecutesJob(jobQ[j],sim_time,sl_no)
-                    if sz==0:
+                    if sz1==0:
                         jobQ[j].NoValidTask = True
                   
     for r in range(MaxTasksInSlot - len_ofjobQ):
