@@ -1,0 +1,1600 @@
+
+Slot No:1 Tasks:24
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:6 CPU (MIPS):30 Busy Time:14.333333333333336
+Cluster:ClusterFR:3 No Tasks Exicuted:5 CPU (MIPS):10 Busy Time:19.630000000000003
+Cluster:ClusterFR:4 No Tasks Exicuted:6 CPU (MIPS):20 Busy Time:15.8
+Cluster:ClusterFR:5 No Tasks Exicuted:6 CPU (MIPS):30 Busy Time:14.366666666666669
+Cloud Exicuted:1Tasks 
+
+Slot No:2 Tasks:48
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:7 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:4 CPU (MIPS):10 Busy Time:17.61
+Cluster:ClusterFR:4 No Tasks Exicuted:7 CPU (MIPS):20 Busy Time:18.4
+Cluster:ClusterFR:5 No Tasks Exicuted:7 CPU (MIPS):30 Busy Time:16.833333333333336
+Cloud Exicuted:23Tasks 
+
+Slot No:3 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:4 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:5 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:6 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:7 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:8 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:9 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:10 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:11 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:12 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:13 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:14 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:15 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:16 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:17 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:18 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:19 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:20 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:21 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:22 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:23 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:24 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:25 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:26 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:27 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:28 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:29 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:30 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:31 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:32 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:33 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:34 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:35 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:36 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:37 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:38 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:39 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:40 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:41 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:42 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:43 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:44 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:45 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:46 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:47 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:48 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:49 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:50 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:51 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:52 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:53 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:54 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:55 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:56 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:57 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:58 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:59 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:60 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:61 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:62 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:63 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:64 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:65 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:66 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:67 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:68 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:69 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:70 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:71 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:72 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:73 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:74 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:75 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:76 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:77 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:78 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:79 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:80 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:81 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:82 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:83 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:84 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:85 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:86 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:87 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:88 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:89 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:90 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:91 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:92 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:93 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:94 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:95 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:96 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:97 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:98 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:99 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:100 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:101 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:102 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:103 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:104 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:105 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:106 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:107 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:108 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:109 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:110 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:111 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:112 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:113 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:114 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:115 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:116 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:117 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:118 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:119 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:120 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:121 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:122 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:123 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:124 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:125 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:126 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:127 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:128 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:129 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:130 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:131 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:132 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:133 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:134 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:135 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:136 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:137 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:138 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:139 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:140 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:141 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:142 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:143 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:144 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:145 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:146 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:147 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:148 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:149 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:150 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:151 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:152 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:153 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:154 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:155 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:156 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:157 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:158 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:159 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:160 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:161 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:162 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:163 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:164 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:165 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:166 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:167 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:168 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:169 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:170 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:171 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:172 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:173 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:174 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:175 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:176 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:177 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:178 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:179 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:180 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:181 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:182 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:183 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:184 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:185 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:186 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:187 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:188 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:189 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:190 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:191 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:192 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:193 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:194 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:195 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:196 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:197 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:198 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:199 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
+
+Slot No:200 Tasks:72
+-------------------------------------------------------------
+Cluster:ClusterFR:2 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.866666666666667
+Cluster:ClusterFR:3 No Tasks Exicuted:8 CPU (MIPS):10 Busy Time:19.652
+Cluster:ClusterFR:4 No Tasks Exicuted:8 CPU (MIPS):20 Busy Time:17.2
+Cluster:ClusterFR:5 No Tasks Exicuted:8 CPU (MIPS):30 Busy Time:16.733333333333334
+Cloud Exicuted:40Tasks 
