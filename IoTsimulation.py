@@ -5,7 +5,7 @@ import numpy as np
 
 #import RLAgent
 from config import AI_RM, ALPHA, BETA, DEFAULT_RM, GAMA, MAX_JOBS, MAX_RS, MAX_SIMULATION_TIME, RM_TYPE, SENSERS_PER_CLUSTER, SLOT_TIME
-from devices import Actuater,Sensor, FogDevice,cs, Job, logentry, jobsTimetracker,tasksTimetracker,resource_mg_string
+from devices import Actuater, Actuaters, ClusterRs,jobQ,Sensor, FogDevice, Sensors,cs, Job, logentry, jobsTimetracker,tasksTimetracker,resource_mg_string
 from GeneticAlg import Chromosome,GeneticAlgorithm
 from DL_MODEL import _build_model
 
@@ -15,12 +15,6 @@ MaxTasksInSlot = MAX_JOBS
 numOfFDs = MAX_RS - 2
 #number of Sensor per cluster
 numSens = SENSERS_PER_CLUSTER
-
-#create task list with empty 
-jobQ = []
-ClusterRs = []
-Sensors = []
-Actuaters = []
 
 #create cluster-fog and edge devices and connects them according to network topology
 for i in range(numOfFDs):
@@ -32,7 +26,9 @@ for fr in ClusterRs:
         #create sensers
         # create a random device from the list
         s_typelist = [1, 2, 3, 4]
-        s_type=random.choice(s_typelist)
+#        s_type=random.choice(s_typelist)
+        s_type = j % 4 + 1
+        s_type = 1
         ed = Sensor( "Sensor_"+str(fr.id)+"_"+str(j), s_type)
         #set the cluster id to newly created edge
         ed.setClusterId(fr.id)
@@ -105,31 +101,28 @@ while MAX_SIMULATION_TIME > sim_time:
     if len_ofjobQ > 0:
 #        print ('slot no:' + str(sl_no) + ' No Tasks:'+ str(len_ofjobQ))
         match RM_TYPE:
+
             case 0:
                 for job in jobQ:
-                    sz1 = job.get_size()
                     clustrFogNode = getClusterFromID(job.getDestinatinFogID())
                     if clustrFogNode != None:
                         clustrFogNode.ExecutesJob(job,sim_time,sl_no)
-                    if sz1 == 0:
-                        job.NoValidTask = True
-                    
             case 1:
             #GA resource manager
                 GA = GeneticAlgorithm(ClusterRs,jobQ)
                 GA.GenarateOptomalChromosome()
                 Cr = GA.returnBESTCRM()
-#                Cr.printassignment()
+#                print(Cr.Fitnes)
                 for j in range(len(jobQ)):
                     FR_ID = Cr.getRs(j)
                     if FR_ID!=None and FR_ID < len(ClusterRs) :
                         ClusterRs[FR_ID].ExecutesJob(jobQ[j],sim_time,sl_no)
                     if FR_ID!=None and FR_ID == len(ClusterRs) :
                         cs.ExecutesJob(jobQ[j],sim_time,sl_no)
-                    if FR_ID==None:
-                        cl= getClusterFromID(jobQ[j].getDestinatinFogID())
-                        cl.ExecutesJob(jobQ[j],sim_time,sl_no)
-                        jobQ[j].NoValidTask = True
+                    # if FR_ID==None:
+                    #     cl= getClusterFromID(jobQ[j].getDestinatinFogID())
+                    #     cl.ExecutesJob(jobQ[j],sim_time,sl_no)
+                    #     jobQ[j].NoValidTask = True
             case 2:
                 # #deep learning AI resource manager
                 # model = _build_model()
@@ -168,8 +161,8 @@ while MAX_SIMULATION_TIME > sim_time:
                         cs.ExecutesJob(jobQ[j],sim_time,sl_no)                        
                     else :
                         ClusterRs[FR_ID-2].ExecutesJob(jobQ[j],sim_time,sl_no)
-                    if sz1==0:
-                        jobQ[j].NoValidTask = True
+                    # if sz1==0:
+                    #     jobQ[j].NoValidTask = True
                   
     for r in range(MaxTasksInSlot - len_ofjobQ):
         logentry.writeToDataset(' 0 , 0, 0,')
@@ -197,21 +190,26 @@ while MAX_SIMULATION_TIME > sim_time:
     logentry.writeToDataset('\n')
     cs.WriteSlotSummary()
 
+for device in ClusterRs:
+    device.clean(sim_time)
+cs.clear(sim_time)
+
 print("Simulation Completed")
 print("-----------Results--------------------")
 print("Total Simulation Time:"+ str(MAX_SIMULATION_TIME))
 print("Total Number of Slots:"+ str(sl_no))		
-# jobsTimetracker.PrintTimeDetails()
-# print()
+
 tasksTimetracker.PrintTimeDetails()
 print()
+fog_total_energy_utilised = 0.
 for device in ClusterRs:
     device.PrintResult(sl_no )
+    fog_total_energy_utilised += device.energy_utilised
     print()
 
 cs.PrintNoTasksExecuted()
 print()
-
+print("Total Fog layer Power Utilised:"+ str(fog_total_energy_utilised))	
 print("\nYou could see:")
 print("              " + logentry.fnameTasks + " for details on each tasks ")
 print("              " + logentry.fnameSlots + " for summary of each slot")

@@ -1,13 +1,13 @@
 Cluster-Fds (FogDevices)
-   ClusterFR:2    CPU Speed(MIPS):30 RAM(MB)3000
+   ClusterFR:2    CPU Speed(MIPS):20 RAM(MB)3000
    Cluster BandWidth:3
-   ClusterFR:3    CPU Speed(MIPS):10 RAM(MB)1000
+   ClusterFR:3    CPU Speed(MIPS):5 RAM(MB)1000
    Cluster BandWidth:1
-   ClusterFR:4    CPU Speed(MIPS):20 RAM(MB)2000
+   ClusterFR:4    CPU Speed(MIPS):10 RAM(MB)2000
    Cluster BandWidth:2
-   ClusterFR:5    CPU Speed(MIPS):30 RAM(MB)3000
+   ClusterFR:5    CPU Speed(MIPS):20 RAM(MB)3000
    Cluster BandWidth:3
-Sensor Devices
+Sensor Devices 
    Sensor_2_0 [Id:6] (Connected to ClusterFR:2)
    Sensor_2_1 [Id:7] (Connected to ClusterFR:2)
    Sensor_2_2 [Id:8] (Connected to ClusterFR:2)
@@ -29,149 +29,71 @@ Sensor Devices
    Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
    Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
    Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_3_4 [Id:17] (Connected to ClusterFR:3)
-   Sensor_3_5 [Id:18] (Connected to ClusterFR:3)
-   Sensor_4_0 [Id:20] (Connected to ClusterFR:4)
-   Sensor_4_1 [Id:21] (Connected to ClusterFR:4)
-   Sensor_4_2 [Id:22] (Connected to ClusterFR:4)
-   Sensor_4_3 [Id:23] (Connected to ClusterFR:4)
-   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
-   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
-   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
-   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
-   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_3_5 [Id:18] (Connected to ClusterFR:3)
-   Sensor_4_0 [Id:20] (Connected to ClusterFR:4)
-   Sensor_4_1 [Id:21] (Connected to ClusterFR:4)
-   Sensor_4_2 [Id:22] (Connected to ClusterFR:4)
-   Sensor_4_3 [Id:23] (Connected to ClusterFR:4)
-   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
-   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
-   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
-   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
-   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_4_0 [Id:20] (Connected to ClusterFR:4)
-   Sensor_4_1 [Id:21] (Connected to ClusterFR:4)
-   Sensor_4_2 [Id:22] (Connected to ClusterFR:4)
-   Sensor_4_3 [Id:23] (Connected to ClusterFR:4)
-   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
-   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
-   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
-   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
-   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_4_1 [Id:21] (Connected to ClusterFR:4)
-   Sensor_4_2 [Id:22] (Connected to ClusterFR:4)
-   Sensor_4_3 [Id:23] (Connected to ClusterFR:4)
-   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
-   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
-   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
-   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
-   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_4_2 [Id:22] (Connected to ClusterFR:4)
-   Sensor_4_3 [Id:23] (Connected to ClusterFR:4)
-   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
-   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
-   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
-   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
-   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
-   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
-   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
-   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
-   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
-   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
-   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
-   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_5_3 [Id:30] (Connected to ClusterFR:5)
-   Sensor_5_4 [Id:31] (Connected to ClusterFR:5)
-   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
-   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
-   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
-   Sensor_5_3 [Id:30] (Connected to ClusterFR:5)
-   Sensor_5_4 [Id:31] (Connected to ClusterFR:5)
-   Sensor_5_5 [Id:32] (Connected to ClusterFR:5)
-Actuater Devices
    Sensor_5_3 [Id:30] (Connected to ClusterFR:5)
    Sensor_5_4 [Id:31] (Connected to ClusterFR:5)
    Sensor_5_5 [Id:32] (Connected to ClusterFR:5)
 Actuater Devices
    Actuater2 [Id:12]  (Connected to ClusterFR:2)
    Actuater3 [Id:19]  (Connected to ClusterFR:3)
-   Sensor_5_5 [Id:32] (Connected to ClusterFR:5)
-Actuater Devices
-   Actuater2 [Id:12]  (Connected to ClusterFR:2)
-   Actuater3 [Id:19]  (Connected to ClusterFR:3)
-   Actuater4 [Id:26]  (Connected to ClusterFR:4)
-   Actuater2 [Id:12]  (Connected to ClusterFR:2)
-   Actuater3 [Id:19]  (Connected to ClusterFR:3)
    Actuater4 [Id:26]  (Connected to ClusterFR:4)
    Actuater5 [Id:33]  (Connected to ClusterFR:5)
-   Actuater3 [Id:19]  (Connected to ClusterFR:3)
-   Actuater4 [Id:26]  (Connected to ClusterFR:4)
-   Actuater5 [Id:33]  (Connected to ClusterFR:5)
-Resource managemnt stratergy: DEFAULT_RM
-   Actuater4 [Id:26]  (Connected to ClusterFR:4)
-   Actuater5 [Id:33]  (Connected to ClusterFR:5)
-Resource managemnt stratergy: DEFAULT_RM
-   Actuater5 [Id:33]  (Connected to ClusterFR:5)
-Resource managemnt stratergy: DEFAULT_RM
 Resource managemnt stratergy: DEFAULT_RM
 Simulation Started
-2025-07-23 22:59:53.657854: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-07-29 07:47:46.971375: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.        
 Simulation Completed
 -----------Results--------------------
-Total Simulation Time:4000
-Total Number of Slots:200
-Total Number of Tasks:14328
+Total Simulation Time:120
+Total Number of Slots:4
+Total Number of Tasks:216
 
-max Timetaken for Tasks:50.01104166666887
-min Timetaken for Tasks:2.3333333333332575
-avg TimeTaken for Tasks:32.12632565024045
+max Timetaken for Tasks:54.00083333333335
+min Timetaken for Tasks:1.3333333333333333
+avg TimeTaken for Tasks:4.555577739197536
 
 Device:ClusterFR:2
-      Total Tasks Executed:1597
-      Total Busy Time:3391.5333333333388
-      Total Idle Time:608.4666666666612
-      Total Time:4000.0
-      CPU Utilization:84.78833333333347
-      Total Power Utilised:442895.72980000015
-      Throughput:0.39925
+      Total Tasks Executed:54
+      Total Busy Time:75.0
+      Total Idle Time:45.0
+      Total Time:120.0
+      CPU Utilization:62.5
+      Total Power Utilised:12475.425
+      Throughput:0.45
 
 Device:ClusterFR:3
-      Total Tasks Executed:1592
-      Total Busy Time:3882.5159999999946
-      Total Idle Time:117.48400000000538
-      Total Time:4000.0
-      CPU Utilization:97.06289999999986
-      Total Power Utilised:417062.89999999985
-      Throughput:0.398
+      Total Tasks Executed:44
+      Total Busy Time:108.0
+      Total Idle Time:12.0
+      Total Time:120.0
+      CPU Utilization:90.0
+      Total Power Utilised:12300.0
+      Throughput:0.36666666666666664
 
 Device:ClusterFR:4
-      Total Tasks Executed:1597
-      Total Busy Time:3439.7599999999893
-      Total Idle Time:560.2400000000107
-      Total Time:4000.0
-      CPU Utilization:85.99399999999974
-      Total Power Utilised:424313.2799999997
-      Throughput:0.39925
+      Total Tasks Executed:54
+      Total Busy Time:96.0
+      Total Idle Time:24.0
+      Total Time:120.0
+      CPU Utilization:80.0
+      Total Power Utilised:12528.0
+      Throughput:0.45
 
 Device:ClusterFR:5
-      Total Tasks Executed:1597
-      Total Busy Time:3391.0333333333388
-      Total Idle Time:608.9666666666612
-      Total Time:4000.0
-      CPU Utilization:84.77583333333347
-      Total Power Utilised:442880.5603000002
-      Throughput:0.39925
+      Total Tasks Executed:54
+      Total Busy Time:75.0
+      Total Idle Time:45.0
+      Total Time:120.0
+      CPU Utilization:62.5
+      Total Power Utilised:12475.425
+      Throughput:0.45
 
-Cloud executed :7905 Tasks
-       Time Used:2.182124999999996
-       Cost:0.021821249999999962
+Cloud executed :10 Tasks
+       Time Used:10.002083333333335
+       Cost:0.10002083333333335
 
+Total Fog layer Power Utilised:49778.850000000006
 
 You could see:
-              tasks-23-07-202522-59-31.txt for details on each tasks
-              slots-23-07-202522-59-31.txt for summary of each slot
+              tasks-29-07-202507-47-39.txt for details on each tasks
+              slots-29-07-202507-47-39.txt for summary of each slot
 ---------------------------------------

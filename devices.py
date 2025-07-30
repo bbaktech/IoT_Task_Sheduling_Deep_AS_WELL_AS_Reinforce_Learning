@@ -6,6 +6,11 @@ import random
 g_jobserno = 0
 g_taskid = 0
 g_devid = 0
+#create task list with empty 
+jobQ = []
+ClusterRs = []
+Sensors = []
+Actuaters = []
 
 resource_mg_string  = ['DEFAULT_RM' ,'GA_RM','AI_RM' ]
 # class STATE:
@@ -231,7 +236,6 @@ class Job:
         self.tsk.setExecutionstarttime(delay)
         self.tsk.destId = dst
         duration = self.tsk.no_instructions / speed + swap_time
-
         self.tsk.setExecutionduration(duration)
         self.tsk.writeDetails()
         self.tsk.writeDataset()
@@ -241,21 +245,28 @@ class Job:
         self.comp_tmstamp = self.comp_tmstamp +self.tsk.time_taken  
 
         new_tasktype = ACTUATER_TYPE
-        if duration!=0:
-            match self.tsk.task_type:
-                case 1:
-                    new_tasktype = CAMRA_PRO
-                case 2:
-                    new_tasktype = GPSPOS_PRO
-                case 3:
-                    new_tasktype = INDLOOP_PRO
-                case 4:
-                    new_tasktype =  MICWAVE_PRO
-
-            self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
-            self.tsk.setSubmitime(slotno*SLOT_TIME)
-        else:
-            self.NoValidTask = True
+        match self.tsk.task_type:
+            case 1:
+                new_tasktype = CAMRA_PRO
+                self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
+                self.tsk.setSubmitime(slotno*SLOT_TIME)
+            case 2:
+                new_tasktype = GPSPOS_PRO
+                self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
+                self.tsk.setSubmitime(slotno*SLOT_TIME)
+            case 3:
+                new_tasktype = INDLOOP_PRO
+                self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
+                self.tsk.setSubmitime(slotno*SLOT_TIME)
+            case 4:
+                new_tasktype =  MICWAVE_PRO
+                self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
+                self.tsk.setSubmitime(slotno*SLOT_TIME)
+            case self.tsk.task_type if self.tsk.task_type in [7,8,9,10]:
+                self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
+                self.tsk.setSubmitime(slotno*SLOT_TIME)
+            case 5:
+                self.NoValidTask = True
         return duration
 
     def get_noInstructions(self):
@@ -370,7 +381,7 @@ class Cloud:
         if (self.devTime.get_time() < sim_time+SLOT_TIME):
             self.slot_no_task_ex += 1
             jb.set_ex_devid(self.id)
-            swap_time = 0
+            swap_time = 1
             duration = jb.setExecutionDetails(LATENCY_CS_FR + self.devTime.get_time() - sim_time,swap_time,self.id, self.cpu_speed,slotno)
             self.devTime.add_time(duration)
             self.slot_busy_time = self.slot_busy_time + duration
@@ -469,10 +480,16 @@ class FogDevice :
         if swap_ram_no >1:
             swap_time = RAM_SWAP_UNIT * swap_ram_no
 
-        if (self.devTime.get_time() < sim_time+SLOT_TIME-(INTERVEL_GAP+swap_time)):
+        if (self.devTime.get_time() < sim_time +SLOT_TIME - swap_time):
             self.slot_no_task_ex += 1
             jb.set_ex_devid(self.id)
-            duration = jb.setExecutionDetails(LATENCY_ED_FR /self.bandwidth  + self.devTime.get_time() - sim_time,swap_time, self.id, self.cpu_speed,slotno)
+            t_id = jb.getDestinatinFogID()
+            for device in  ClusterRs:
+                if device.id == t_id:
+                        fg_dev = device
+# accumulated time added            
+#            duration = jb.setExecutionDetails(LATENCY_ED_FR /self.bandwidth  + self.devTime.get_time() - sim_time,swap_time, self.id, self.cpu_speed,slotno)
+            duration = jb.setExecutionDetails(LATENCY_ED_FR /self.bandwidth,swap_time, self.id, self.cpu_speed,slotno)
             self.devTime.add_time(duration)
             self.slot_busy_time = self.slot_busy_time + duration
         else:
@@ -495,7 +512,7 @@ class FogDevice :
 
     def PrintResult(self,  slot):
         total_idletime = self.total_time - self.total_Comp_time
-        energy_utilised = total_idletime * self.idle_power +self.total_Comp_time * self.busy_power
+        self.energy_utilised = total_idletime * self.idle_power +self.total_Comp_time * self.busy_power
         TH = self.noTasksExecuted / MAX_SIMULATION_TIME
         cpu_utilization = self.total_Comp_time / self.total_time *100;
         print("Device:"+ self.name )
@@ -504,7 +521,7 @@ class FogDevice :
         print("      Total Idle Time:" + str(total_idletime) )
         print("      Total Time:" + str(self.total_time ))
         print("      CPU Utilization:"+ str(cpu_utilization))
-        print("      Total Power Utilised:" + str( energy_utilised ))
+        print("      Total Power Utilised:" + str( self.energy_utilised ))
         print("      Throughput:" + str(TH ))
 
 logentry = FileWrite()

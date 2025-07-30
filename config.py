@@ -1,6 +1,6 @@
 #simulation Time
-MAX_SIMULATION_TIME = 4000
-SLOT_TIME =  20
+MAX_SIMULATION_TIME = 6000
+SLOT_TIME =  30
 
 MAX_JOBS = 85
 JOB_ATTRIBUTES = 3
@@ -9,11 +9,11 @@ SENSERS_PER_CLUSTER = 6
 
 #fitness perameters
 #Latency weight 
-ALPHA = 1
+ALPHA = 1.
 #Energy weight
-BETA = 0
+BETA = 0.0
 #Cost weight 
-GAMA = 0
+GAMA = 0.0
 
 #RESOURCE MANAGEMENT OPTIONS
 DEFAULT_RM = 0
@@ -43,16 +43,16 @@ FD_CAPACITY2 = 15
 FD_CAPACITY3 = 20
 	
 #CPU speed instructions per second
-CPU_SPEED1 = 10
-CPU_SPEED2 = 20
-CPU_SPEED3 = 30
+CPU_SPEED1 = 5
+CPU_SPEED2 = 10
+CPU_SPEED3 = 20
 	
 #latency
 LATENCY_CS_FR = 50
 LATENCY_ED_FR = 1
 
 #RAM swaping unit time
-RAM_SWAP_UNIT = 2
+RAM_SWAP_UNIT = 1
 
 #task types
 SENSER_TYPE = 1
@@ -78,8 +78,8 @@ CONT_DISPLAY = 6
 
 #node genarated tasks
 CAMRA_PRO = 7
-INDLOOP_PRO = 8
-GPSPOS_PRO = 9
+GPSPOS_PRO = 8
+INDLOOP_PRO = 9
 MICWAVE_PRO = 10
 
 #actuater
