@@ -19,6 +19,7 @@ GAMA = 0.0
 DEFAULT_RM = 0
 GA_RM = 1
 AI_RM = 2
+RL_RM = 3
 
 #resource management approch
 RM_TYPE = AI_RM

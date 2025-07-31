@@ -119,17 +119,8 @@ while MAX_SIMULATION_TIME > sim_time:
                         ClusterRs[FR_ID].ExecutesJob(jobQ[j],sim_time,sl_no)
                     if FR_ID!=None and FR_ID == len(ClusterRs) :
                         cs.ExecutesJob(jobQ[j],sim_time,sl_no)
-                    # if FR_ID==None:
-                    #     cl= getClusterFromID(jobQ[j].getDestinatinFogID())
-                    #     cl.ExecutesJob(jobQ[j],sim_time,sl_no)
-                    #     jobQ[j].NoValidTask = True
             case 2:
-                # #deep learning AI resource manager
-                # model = _build_model()
-                # model.load_weights('DL_MODULE_4RMV1.weights.h5')
-
                 list_tasks = []
-
                 for j in range(len(jobQ)):
                     tp = jobQ[j].get_type()
                     sz = jobQ[j].get_codesize()
@@ -163,6 +154,8 @@ while MAX_SIMULATION_TIME > sim_time:
                         ClusterRs[FR_ID-2].ExecutesJob(jobQ[j],sim_time,sl_no)
                     # if sz1==0:
                     #     jobQ[j].NoValidTask = True
+            case 3:
+                pass
                   
     for r in range(MaxTasksInSlot - len_ofjobQ):
         logentry.writeToDataset(' 0 , 0, 0,')
