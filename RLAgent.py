@@ -1,21 +1,22 @@
 from operator import gt, le
 import random
-import gym 
 import keras
+from keras.src import Sequential 
+from keras.src.layers import Dense,Dropout,Flatten
+from keras.src.optimizers import Adam
 import numpy as np
 import tensorflow as tf
 from collections import deque
-from keras.src import Sequential 
-from keras.src.layers import Dense
-from keras.src.optimizers import Adam
-from devices import STATE
+from keras.utils import to_categorical # type: ignore
+from config import MAX_JOBS
+batch_size = 32
 
 #A deep Q-learning agent
 class DQNAgent:
     def __init__(self, state_size, action_size):
         self.state_size = state_size
         self.action_size = action_size
-        self.memory = deque(maxlen=1000)
+        self.memory = deque(maxlen=100)
         self.gamma = 0.95
         self.epsilon = 1.0
         self.epsilon_decay = 0.99
@@ -23,46 +24,71 @@ class DQNAgent:
         self.learning_rate = 0.001
         self.model = self._build_model()
 
+    def _build_model(self):
+        # Define model architecture
+        inputs = keras.Input(shape=(self.state_size,))
+        x = Dense(128, activation="relu")(inputs)
+        oo = []
+        names= []
+        for job in range(MAX_JOBS):
+            x0 = Dense(64, activation="relu")(x)
+            name = 'outputs'+str(job)
+            names.append(name)
+            oo.append(Dense(self.action_size, activation="linear",name = name)(x0) )
+
+        model = keras.Model(inputs = inputs, outputs = oo)
+        #loss is the distnary you need to implement
+        loss = {}
+        for job in range(MAX_JOBS):
+            loss.update({ names[job]: 'mse'})
+
+        model.compile(optimizer= Adam(learning_rate=self.learning_rate),
+                    loss=loss )
+        return model
+
     def load_mdl(self):
-        self.model.load_weights('weights_1500.weights.h5')
+        self.model.load_weights('weights_1000.weights.h5')
         self.epsilon = 0.009920974201040588
 
-    def _build_model(self):
-        model = Sequential() 
-        model.add(Dense(32, activation="relu",
-                        input_dim=self.state_size))
-        model.add(Dense(32, activation="relu"))
-        model.add(Dense(self.action_size, activation="linear"))
-        model.compile(loss="mse",
-                     optimizer=Adam(learning_rate=self.learning_rate))
-        return model
- 
-        #receive feedback to agent
-    def remember(self, state, action, reward, next_state): 
-        self.memory.append((state, action,
-                            reward, next_state))
-
-    def train(self, batch_size):
-        minibatch = random.sample(self.memory, batch_size)
-        for state, action, reward, next_state in minibatch:
-            target = reward     
-            target_f = self.model.predict(state,verbose=0)
-            target_f[0][action] = target
-            self.model.fit(state, target_f, epochs=1,verbose=0) 
-        
-        if gt (self.epsilon , self.epsilon_min):
-                self.epsilon *= self.epsilon_decay
-
-    def act(self, state):
+    def act(self, state, sim_time, sl_no):
         if le(np.random.rand() , self.epsilon):
-            return random.randrange(self.action_size) 
-        act_values = self.model.predict(state,verbose=0)
-        return np.argmax(act_values[0])
+            #genarate MAX_JOBS random values
+            result1 =[]
+            for j in range(MAX_JOBS):
+                idx = random.randrange(self.action_size)
+                ary_val = []
+                for i in range(self.action_size):
+                    ary_val.append(0)
+                ary_val[idx] = 1
+                result1.append([ary_val])
+            return result1
+        result = self.model.predict(state,verbose = 0 )
+        return result
+
+    #receive feedback to agent
+    def remember(self, state, action, rewards):
+        self.memory.append((state, action,rewards))
+ 
+    def train(self):
+        if len(self.memory) > batch_size:
+            minibatch = random.sample(self.memory, batch_size)
+            for state, action, rewards in minibatch:
+                n_action = self.model.predict(state,verbose = 0 )
+
+                for jb in range(MAX_JOBS):
+                    pp = np.argmax(n_action[jb][0])
+                    n_action[jb][0][pp] = rewards[jb]
+
+                self.model.fit(state, n_action, epochs=1,verbose=0)
+            #epson if should be at minbatch for level
+            if gt (self.epsilon , self.epsilon_min):
+                self.epsilon *= self.epsilon_decay
     
     def save(self, name): 
         self.model.save_weights(name)
         name = name + 'new.txt'
         strval = "self.epsilon:"+ str(self.epsilon)
         with open(name, 'a') as f:
-            f.write(strval)
+            for state, action, rewards in self.memory:
+                f.write(' reward:' + str(rewards[0]))
             f.close()

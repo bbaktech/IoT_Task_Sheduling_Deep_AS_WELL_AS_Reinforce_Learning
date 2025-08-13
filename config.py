@@ -22,7 +22,7 @@ AI_RM = 2
 RL_RM = 3
 
 #resource management approch
-RM_TYPE = AI_RM
+RM_TYPE = RL_RM
 
 #cloud server attributes
 CLOUD_COST_UNIT_TIME = 0.01

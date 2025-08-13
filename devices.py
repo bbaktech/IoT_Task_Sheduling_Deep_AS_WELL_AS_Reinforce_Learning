@@ -12,7 +12,7 @@ ClusterRs = []
 Sensors = []
 Actuaters = []
 
-resource_mg_string  = ['DEFAULT_RM' ,'GA_RM','AI_RM' ]
+resource_mg_string  = ['DEFAULT_RM' ,'GA_RM','AI_RM' ,'RL_RM']
 # class STATE:
 #     def __init__(self):
 #         self.no_fognodes = 0.
@@ -388,6 +388,9 @@ class Cloud:
         else:
             jb.writetoDataset()
 
+    def getIntervelMetricsDetails(self):
+        return LATENCY_CS_FR+1
+    
     def clear(self,sim_time):
         self.total_job_count = self.total_job_count +self.slot_no_task_ex
         self.slot_no_task_ex = 0
@@ -436,7 +439,6 @@ class FogDevice :
                 self.ram = FD_RAM1
                 self.busy_power = 105.00
                 self.idle_power = 80.00
-
             case 1:
                 self.no_core = FD_CAPACITY2
                 self.cpu_speed = CPU_SPEED2
@@ -509,6 +511,12 @@ class FogDevice :
         self.total_Comp_time = self.total_Comp_time + self.slot_busy_time
         self.total_time = self.total_time + SLOT_TIME
         self.devTime.set_time(self.total_time)
+
+    def getIntervelMetricsDetails(self):
+        time_reward = self.slot_busy_time * self.cpu_speed
+        energy_reward = self.slot_busy_time * self.busy_power
+        cost_reward = 0
+        return time_reward
 
     def PrintResult(self,  slot):
         total_idletime = self.total_time - self.total_Comp_time
