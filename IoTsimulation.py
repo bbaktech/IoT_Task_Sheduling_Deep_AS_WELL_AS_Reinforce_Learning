@@ -1,13 +1,14 @@
 
 import random
-
 import numpy as np
 
 #import RLAgent
-from config import AI_RM, ALPHA, BETA, DEFAULT_RM, GAMA, MAX_JOBS, MAX_RS, MAX_SIMULATION_TIME, RM_TYPE, SENSERS_PER_CLUSTER, SLOT_TIME
+from config import AI_RM, ALPHA, BETA, DEFAULT_RM, GAMA, JOB_ATTRIBUTES, MAX_JOBS, MAX_RS, MAX_SIMULATION_TIME, RM_TYPE, SENSERS_PER_CLUSTER, SLOT_TIME
 from devices import Actuater, Actuaters, ClusterRs,jobQ,Sensor, FogDevice, Sensors,cs, Job, logentry, jobsTimetracker,tasksTimetracker,resource_mg_string
 from GeneticAlg import Chromosome,GeneticAlgorithm
 from DL_MODEL import _build_model
+import RLAgent
+agent = RLAgent.DQNAgent(state_size = (MAX_JOBS*JOB_ATTRIBUTES), action_size = MAX_RS-2)
 
 #max number of allowed tasks for dataset { numSens * numOfFDs * 3 }
 MaxTasksInSlot = MAX_JOBS
@@ -44,6 +45,14 @@ def  getClusterFromID(id):
         if device.id == id:
             return device
     return None
+
+def computeRewards():
+    watch_dog = 0
+    for device in ClusterRs:
+        watch_dog =  watch_dog + device.getIntervelMetricsDetails()
+#    watch_dog = watch_dog + cs.getIntervelMetricsDetails()
+    rewards = [watch_dog for x in range(MAX_JOBS)]    
+    return rewards
 
 print("Cluster-Fds (FogDevices)")
 for device in  ClusterRs:
@@ -103,12 +112,14 @@ while MAX_SIMULATION_TIME > sim_time:
         match RM_TYPE:
 
             case 0:
+                #default resource management
                 for job in jobQ:
                     clustrFogNode = getClusterFromID(job.getDestinatinFogID())
                     if clustrFogNode != None:
                         clustrFogNode.ExecutesJob(job,sim_time,sl_no)
             case 1:
             #GA resource manager
+                print ('slot no:' + str(sl_no) + ' No Tasks:'+ str(len_ofjobQ))  
                 GA = GeneticAlgorithm(ClusterRs,jobQ)
                 GA.GenarateOptomalChromosome()
                 Cr = GA.returnBESTCRM()
@@ -120,6 +131,7 @@ while MAX_SIMULATION_TIME > sim_time:
                     if FR_ID!=None and FR_ID == len(ClusterRs) :
                         cs.ExecutesJob(jobQ[j],sim_time,sl_no)
             case 2:
+                #Deep learning AI module resource management
                 list_tasks = []
                 for j in range(len(jobQ)):
                     tp = jobQ[j].get_type()
@@ -155,7 +167,47 @@ while MAX_SIMULATION_TIME > sim_time:
                     # if sz1==0:
                     #     jobQ[j].NoValidTask = True
             case 3:
-                pass
+                #Resource management by Reinforcement learning Agent
+                list_tasks = []
+                for j in range(len(jobQ)):
+                    tp = jobQ[j].get_type()
+                    sz = jobQ[j].get_codesize()
+                    dsz = jobQ[j].get_dataBytes()
+                    
+                    list_tasks.append(tp)
+                    list_tasks.append(sz)
+                    list_tasks.append(dsz)                   
+#                print ('slot no:' + str(sl_no) + ' No Tasks:'+ str(len_ofjobQ))    
+                for r in range(MaxTasksInSlot - len_ofjobQ):
+                    list_tasks.append(0)
+                    list_tasks.append(0)
+                    list_tasks.append(0)
+
+                input_jobs = np.array([list_tasks])
+                result = agent.act(input_jobs,sim_time,sl_no)
+#                print(len(result))
+                for j in range(len(jobQ)):
+                    FR_ID = np.argmax(result[j][0])
+                    ClusterRs[FR_ID].ExecutesJob(jobQ[j],sim_time,sl_no)
+                    # FR_ID = np.argmax(result[j][0])
+                    # if FR_ID==None :
+                    #     jobQ[j].writetoDataset()
+                    #     jobQ[j].NoValidTask = True
+                    # elif FR_ID == 0:
+                    #     jobQ[j].writetoDataset()
+                    #     jobQ[j].NoValidTask = True
+                    # elif FR_ID == 1 :
+                    #     cs.ExecutesJob(jobQ[j],sim_time,sl_no)                        
+                    # else :
+                    #     ClusterRs[FR_ID-2].ExecutesJob(jobQ[j],sim_time,sl_no)
+
+                rewards = computeRewards()
+                #state,action,reward sent for learning to agent
+                agent.remember(input_jobs, result, rewards)
+                agent.train()
+                if sl_no % 32 == 0:
+                    agent.save("weights_"
+                            + "{:04d}".format(sl_no) + ".weights.h5")                
                   
     for r in range(MaxTasksInSlot - len_ofjobQ):
         logentry.writeToDataset(' 0 , 0, 0,')
