@@ -1,9 +1,7 @@
 import keras
 from keras.src import Sequential 
 from keras.src.layers import Dense,Dropout,Flatten
-from keras.src.optimizers import Adam
-import pandas
-import numpy as np
+#from keras.src.optimizers import Adam
 from sklearn.model_selection import train_test_split
 
 from config import JOB_ATTRIBUTES, MAX_JOBS, MAX_RS
@@ -30,4 +28,3 @@ def _build_model():
     model.compile(optimizer='rmsprop',
                 loss=loss )
     return model
-
