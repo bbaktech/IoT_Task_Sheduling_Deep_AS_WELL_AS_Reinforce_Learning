@@ -8,7 +8,7 @@ from devices import Actuater, Actuaters, ClusterRs,jobQ,Sensor, FogDevice, Senso
 from GeneticAlg import Chromosome,GeneticAlgorithm
 from DL_MODEL import _build_model
 import RLAgent
-agent = RLAgent.DQNAgent(state_size = (MAX_JOBS*JOB_ATTRIBUTES), action_size = MAX_RS-2)
+agent = RLAgent.DQNAgent(state_size = (MAX_JOBS*JOB_ATTRIBUTES), action_size = (MAX_RS-2))
 
 #max number of allowed tasks for dataset { numSens * numOfFDs * 3 }
 MaxTasksInSlot = MAX_JOBS
@@ -119,7 +119,7 @@ while MAX_SIMULATION_TIME > sim_time:
                         clustrFogNode.ExecutesJob(job,sim_time,sl_no)
             case 1:
             #GA resource manager
-                print ('slot no:' + str(sl_no) + ' No Tasks:'+ str(len_ofjobQ))  
+#                print ('slot no:' + str(sl_no) + ' No Tasks:'+ str(len_ofjobQ))  
                 GA = GeneticAlgorithm(ClusterRs,jobQ)
                 GA.GenarateOptomalChromosome()
                 Cr = GA.returnBESTCRM()
@@ -153,7 +153,7 @@ while MAX_SIMULATION_TIME > sim_time:
 
                 for j in range(len(jobQ)):
                     FR_ID = np.argmax(result[j][0])
-                    sz1 = jobQ[j].get_size()
+
                     if FR_ID==None :
                         jobQ[j].writetoDataset()
                         jobQ[j].NoValidTask = True
@@ -164,8 +164,7 @@ while MAX_SIMULATION_TIME > sim_time:
                         cs.ExecutesJob(jobQ[j],sim_time,sl_no)                        
                     else :
                         ClusterRs[FR_ID-2].ExecutesJob(jobQ[j],sim_time,sl_no)
-                    # if sz1==0:
-                    #     jobQ[j].NoValidTask = True
+
             case 3:
                 #Resource management by Reinforcement learning Agent
                 list_tasks = []
@@ -189,23 +188,11 @@ while MAX_SIMULATION_TIME > sim_time:
                 for j in range(len(jobQ)):
                     FR_ID = np.argmax(result[j][0])
                     ClusterRs[FR_ID].ExecutesJob(jobQ[j],sim_time,sl_no)
-                    # FR_ID = np.argmax(result[j][0])
-                    # if FR_ID==None :
-                    #     jobQ[j].writetoDataset()
-                    #     jobQ[j].NoValidTask = True
-                    # elif FR_ID == 0:
-                    #     jobQ[j].writetoDataset()
-                    #     jobQ[j].NoValidTask = True
-                    # elif FR_ID == 1 :
-                    #     cs.ExecutesJob(jobQ[j],sim_time,sl_no)                        
-                    # else :
-                    #     ClusterRs[FR_ID-2].ExecutesJob(jobQ[j],sim_time,sl_no)
-
                 rewards = computeRewards()
                 #state,action,reward sent for learning to agent
                 agent.remember(input_jobs, result, rewards)
                 agent.train()
-                if sl_no % 32 == 0:
+                if sl_no % 100 == 0:
                     agent.save("weights_"
                             + "{:04d}".format(sl_no) + ".weights.h5")                
                   

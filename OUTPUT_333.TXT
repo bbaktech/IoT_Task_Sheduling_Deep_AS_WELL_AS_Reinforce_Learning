@@ -1,0 +1,59 @@
+Resource managemnt stratergy: RL_RM
+Simulation Started
+Alpha:1.0, Beta:0.0, Gama:0.0
+Simulation Completed
+-----------Results--------------------
+Total Simulation Time:6000
+Total Number of Slots:200
+Total Number of Tasks:14328
+
+max Timetaken for Tasks:63.00270833333384
+min Timetaken for Tasks:1.3333333333333333
+avg TimeTaken for Tasks:6.288684132467607
+
+Device:ClusterFR:2
+      Total Tasks Executed:3884
+      Total Busy Time:5268.5
+      Total Idle Time:731.5
+      Total Time:6000.0
+      CPU Utilization:87.80833333333334
+      Total Power Utilised:669841.0215
+      Throughput:0.6473333333333333
+
+Device:ClusterFR:3
+      Total Tasks Executed:2921
+      Total Busy Time:5885.0
+      Total Idle Time:115.0
+      Total Time:6000.0
+      CPU Utilization:98.08333333333333
+      Total Power Utilised:627125.0
+      Throughput:0.48683333333333334
+
+Device:ClusterFR:4
+      Total Tasks Executed:2780
+      Total Busy Time:4462.0
+      Total Idle Time:1538.0
+      Total Time:6000.0
+      CPU Utilization:74.36666666666667
+      Total Power Utilised:616936.0
+      Throughput:0.4633333333333333
+
+Device:ClusterFR:5
+      Total Tasks Executed:3575
+      Total Busy Time:4812.5
+      Total Idle Time:1187.5
+      Total Time:6000.0
+      CPU Utilization:80.20833333333334
+      Total Power Utilised:656006.4375
+      Throughput:0.5958333333333333
+
+Cloud executed :1168 Tasks
+       Time Used:1168.2433333333363
+       Cost:11.682433333333362
+
+Total Fog layer Power Utilised:2569908.459
+
+You could see:
+              tasks-15-08-202509-30-44.txt for details on each tasks
+              slots-15-08-202509-30-44.txt for summary of each slot
+---------------------------------------

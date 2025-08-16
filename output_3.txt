@@ -1,0 +1,55 @@
+-----------Results--------------------
+Total Simulation Time:15000
+Total Number of Slots:500
+Total Number of Tasks:35928
+
+max Timetaken for Tasks:64.00291666666722
+min Timetaken for Tasks:1.3333333333333333
+avg TimeTaken for Tasks:4.540603330503929
+
+Device:ClusterFR:2
+      Total Tasks Executed:10053
+      Total Busy Time:13585.0
+      Total Idle Time:1415.0
+      Total Time:15000.0
+      CPU Utilization:90.56666666666666
+      Total Power Utilised:1687155.315
+      Throughput:0.6702
+
+Device:ClusterFR:3
+      Total Tasks Executed:5602
+      Total Busy Time:12514.0
+      Total Idle Time:2486.0
+      Total Time:15000.0
+      CPU Utilization:83.42666666666668
+      Total Power Utilised:1512850.0
+      Throughput:0.37346666666666667
+
+Device:ClusterFR:4
+      Total Tasks Executed:8152
+      Total Busy Time:13399.0
+      Total Idle Time:1601.0
+      Total Time:15000.0
+      CPU Utilization:89.32666666666667
+      Total Power Utilised:1605172.0
+      Throughput:0.5434666666666667
+
+Device:ClusterFR:5
+      Total Tasks Executed:10358
+      Total Busy Time:13581.0
+      Total Idle Time:1419.0
+      Total Time:15000.0
+      CPU Utilization:90.53999999999999
+      Total Power Utilised:1687033.959
+      Throughput:0.6905333333333333
+
+Cloud executed :1763 Tasks
+       Time Used:1763.367291666668
+       Cost:17.63367291666668
+
+Total Fog layer Power Utilised:6492211.273999999
+
+You could see:
+              tasks-16-08-202511-47-09.txt for details on each tasks
+              slots-16-08-202511-47-09.txt for summary of each slot
+---------------------------------------

@@ -39,8 +39,6 @@ Actuater Devices
    Actuater5 [Id:33]  (Connected to ClusterFR:5)
 Resource managemnt stratergy: GA_RM
 Simulation Started
-2025-07-29 09:10:11.891575: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
 Alpha:1.0, Beta:0.0, Gama:0.0
 Simulation Completed
 -----------Results--------------------
@@ -50,51 +48,51 @@ Total Number of Tasks:14328
 
 max Timetaken for Tasks:57.00145833333359
 min Timetaken for Tasks:1.3333333333333333
-avg TimeTaken for Tasks:3.9672289398385385
+avg TimeTaken for Tasks:3.9337268954731712
 
 Device:ClusterFR:2
-      Total Tasks Executed:4220
-      Total Busy Time:5871.5
-      Total Idle Time:128.5
+      Total Tasks Executed:4200
+      Total Busy Time:5854.5
+      Total Idle Time:145.5
       Total Time:6000.0
-      CPU Utilization:97.85833333333333
-      Total Power Utilised:688135.4385
-      Throughput:0.7033333333333334
+      CPU Utilization:97.575
+      Total Power Utilised:687619.6755
+      Throughput:0.7
 
 Device:ClusterFR:3
-      Total Tasks Executed:2335
-      Total Busy Time:4113.0
-      Total Idle Time:1887.0
+      Total Tasks Executed:2387
+      Total Busy Time:4153.0
+      Total Idle Time:1847.0
       Total Time:6000.0
-      CPU Utilization:68.55
-      Total Power Utilised:582825.0
-      Throughput:0.38916666666666666
+      CPU Utilization:69.21666666666667
+      Total Power Utilised:583825.0
+      Throughput:0.3978333333333333
 
 Device:ClusterFR:4
-      Total Tasks Executed:3249
-      Total Busy Time:5174.0
-      Total Idle Time:826.0
+      Total Tasks Executed:3148
+      Total Busy Time:5032.0
+      Total Idle Time:968.0
       Total Time:6000.0
-      CPU Utilization:86.23333333333333
-      Total Power Utilised:636872.0
-      Throughput:0.5415
+      CPU Utilization:83.86666666666667
+      Total Power Utilised:632896.0
+      Throughput:0.5246666666666666
 
 Device:ClusterFR:5
-      Total Tasks Executed:3960
-      Total Busy Time:5407.5
-      Total Idle Time:592.5
+      Total Tasks Executed:4037
+      Total Busy Time:5509.0
+      Total Idle Time:491.0
       Total Time:6000.0
-      CPU Utilization:90.125
-      Total Power Utilised:674058.1425
-      Throughput:0.66
+      CPU Utilization:91.81666666666666
+      Total Power Utilised:677137.551
+      Throughput:0.6728333333333333
 
-Cloud executed :564 Tasks
-       Time Used:564.1175000000012
-       Cost:5.641175000000012
+Cloud executed :556 Tasks
+       Time Used:556.1158333333344
+       Cost:5.561158333333345
 
-Total Fog layer Power Utilised:2581890.5810000002
+Total Fog layer Power Utilised:2581478.2265
 
 You could see:
-              tasks-29-07-202509-10-05.txt for details on each tasks
-              slots-29-07-202509-10-05.txt for summary of each slot
+              tasks-13-08-202522-27-28.txt for details on each tasks
+              slots-13-08-202522-27-28.txt for summary of each slot
 ---------------------------------------

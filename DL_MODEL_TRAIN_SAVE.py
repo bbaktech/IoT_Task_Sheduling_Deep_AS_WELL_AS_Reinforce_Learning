@@ -12,7 +12,7 @@ JOB_ATTRIBUTES = 3
 MAX_RS = 6
 
 df1 = pandas.read_csv('DataSet3.csv')
-X = df1.iloc[:, :MAX_JOBS*3]
+X = df1.iloc[:, :MAX_JOBS*JOB_ATTRIBUTES]
 x = np.array(X).astype(np.int32)
 
 Y = []
@@ -51,7 +51,10 @@ modl.summary()
 callbacks = [keras.callbacks.ModelCheckpoint("DENS_ASSIN.keras",save_best_only=True)]
 Z = []
 for ind in range(MAX_JOBS):
-    Z.append (to_categorical(Y[ind], num_classes = MAX_RS))
+#    for slot in range(200):
+        Z.append (to_categorical(Y[ind], num_classes = MAX_RS))
+        print (len(Y[ind]))
+
 
 history = modl.fit(x, Z,epochs=1000,callbacks=callbacks)
 modl.save_weights('DL_MODULE_4RMV1.weights.h5')
@@ -64,6 +67,7 @@ print (len(jobs))
 
 for i in range (5):
     print ('sample' + str(i))
+    print (jobs)
     for jb in range(MAX_JOBS):
         pp = np.argmax(jobs[jb][i])
         print(str(pp)+":"+ str(Y[jb][i]) + ':'+ str(Z[jb][i]) )
