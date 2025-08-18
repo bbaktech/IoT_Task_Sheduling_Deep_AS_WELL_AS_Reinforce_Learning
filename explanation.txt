@@ -1,0 +1,36 @@
+agent = RLAgent.DQNAgent(state_size = 2, action_size= len(action_list))
+
+    #CREATE LOAD equlent to create jobs inside loop
+    env.createLoad(sim_time, Slot) 
+
+    #1.		call RL Agent to get action by giving STATE and LOAD
+    #present state
+    state = []
+    state.append(len(ClusterRs))
+    state.append(len(jobQ))
+    p_state = np.reshape(state, [1, state_size])
+    action = agent.act(p_state)
+
+    #2.  	Take action accoring to RL Agent suggestion
+    #3.		compute fitness and send it as reward
+
+    #4. send feedback / reward  to RL Agent
+    enery_parm = FD_ENERGY_PER_SLOT * len(ClusterRs)
+    latency_parm = slotTT.AvgTaskCompetionTime()
+    #reward2 = abs(100 - reward2 /22.0 *100)
+
+    reward = MAX_REWARD - (enery_parm + latency_parm)
+    agent.remember(p_state, action, reward, n_state)
+
+    #5. Fine tune agent memory for dataset
+    if len(agent.memory) > batch_size:
+        agent.train(batch_size) 
+    if Slot % 100 == 0:
+        agent.save("weights_"
+                + "{:04d}".format(Slot) + ".weights.h5")
+
+
+1. state is two tenser - one is resource tenser, tasks tensor
+output -> as the output of the DL model
+
+3. reward is the fittness

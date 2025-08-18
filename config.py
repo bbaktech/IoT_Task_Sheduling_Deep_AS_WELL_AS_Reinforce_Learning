@@ -1,5 +1,5 @@
 #simulation Time
-MAX_SIMULATION_TIME = 6000
+MAX_SIMULATION_TIME = 3000
 SLOT_TIME =  30
 
 MAX_JOBS = 85
@@ -22,7 +22,7 @@ AI_RM = 2
 RL_RM = 3
 
 #resource management approch
-RM_TYPE = RL_RM
+RM_TYPE = AI_RM
 
 #cloud server attributes
 CLOUD_COST_UNIT_TIME = 0.01

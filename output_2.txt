@@ -1,0 +1,100 @@
+Cluster-Fds (FogDevices)
+   ClusterFR:2    CPU Speed(MIPS):20 RAM(MB)3000
+   Cluster BandWidth:3
+   ClusterFR:3    CPU Speed(MIPS):5 RAM(MB)1000
+   Cluster BandWidth:1
+   ClusterFR:4    CPU Speed(MIPS):10 RAM(MB)2000
+   Cluster BandWidth:2
+   ClusterFR:5    CPU Speed(MIPS):20 RAM(MB)3000
+   Cluster BandWidth:3
+Sensor Devices
+   Sensor_2_0 [Id:6] (Connected to ClusterFR:2)
+   Sensor_2_1 [Id:7] (Connected to ClusterFR:2)
+   Sensor_2_2 [Id:8] (Connected to ClusterFR:2)
+   Sensor_2_3 [Id:9] (Connected to ClusterFR:2)
+   Sensor_2_4 [Id:10] (Connected to ClusterFR:2)
+   Sensor_2_5 [Id:11] (Connected to ClusterFR:2)
+   Sensor_3_0 [Id:13] (Connected to ClusterFR:3)
+   Sensor_3_1 [Id:14] (Connected to ClusterFR:3)
+   Sensor_3_2 [Id:15] (Connected to ClusterFR:3)
+   Sensor_3_3 [Id:16] (Connected to ClusterFR:3)
+   Sensor_3_4 [Id:17] (Connected to ClusterFR:3)
+   Sensor_3_5 [Id:18] (Connected to ClusterFR:3)
+   Sensor_4_0 [Id:20] (Connected to ClusterFR:4)
+   Sensor_4_1 [Id:21] (Connected to ClusterFR:4)
+   Sensor_4_2 [Id:22] (Connected to ClusterFR:4)
+   Sensor_4_3 [Id:23] (Connected to ClusterFR:4)
+   Sensor_4_4 [Id:24] (Connected to ClusterFR:4)
+   Sensor_4_5 [Id:25] (Connected to ClusterFR:4)
+   Sensor_5_0 [Id:27] (Connected to ClusterFR:5)
+   Sensor_5_1 [Id:28] (Connected to ClusterFR:5)
+   Sensor_5_2 [Id:29] (Connected to ClusterFR:5)
+   Sensor_5_3 [Id:30] (Connected to ClusterFR:5)
+   Sensor_5_4 [Id:31] (Connected to ClusterFR:5)
+   Sensor_5_5 [Id:32] (Connected to ClusterFR:5)
+Actuater Devices
+   Actuater2 [Id:12]  (Connected to ClusterFR:2)
+   Actuater3 [Id:19]  (Connected to ClusterFR:3)
+   Actuater4 [Id:26]  (Connected to ClusterFR:4)
+   Actuater5 [Id:33]  (Connected to ClusterFR:5)
+Resource managemnt stratergy: AI_RM
+Simulation Started
+C:\Users\Dell\anaconda3\Lib\site-packages\keras\src\saving\saving_lib.py:576: UserWarning: Skipping variable loading for optimizer 'rmsprop', because it has 2 variables whereas the saved optimizer has 344 variables.
+  saveable.load_own_variables(weights_store.get(inner_path))
+Alpha:1.0, Beta:0.0, Gama:0.0
+Simulation Completed
+-----------Results--------------------
+Total Simulation Time:3000
+Total Number of Slots:100
+Total Number of Tasks:7128
+
+max Timetaken for Tasks:59.00187500000034
+min Timetaken for Tasks:1.5
+avg TimeTaken for Tasks:8.465734047652916
+
+Device:ClusterFR:2
+      Total Tasks Executed:1990
+      Total Busy Time:2985.0
+      Total Idle Time:15.0
+      Total Time:3000.0
+      CPU Utilization:99.5
+      Total Power Utilised:345561.915
+      Throughput:0.6633333333333333
+
+Device:ClusterFR:3
+      Total Tasks Executed:2064
+      Total Busy Time:2076.0
+      Total Idle Time:924.0
+      Total Time:3000.0
+      CPU Utilization:69.19999999999999
+      Total Power Utilised:291900.0
+      Throughput:0.688
+
+Device:ClusterFR:4
+      Total Tasks Executed:406
+      Total Busy Time:518.0
+      Total Idle Time:2482.0
+      Total Time:3000.0
+      CPU Utilization:17.266666666666666
+      Total Power Utilised:260504.0
+      Throughput:0.13533333333333333
+
+Device:ClusterFR:5
+      Total Tasks Executed:1785
+      Total Busy Time:2677.5
+      Total Idle Time:322.5
+      Total Time:3000.0
+      CPU Utilization:89.25
+      Total Power Utilised:336232.6725
+      Throughput:0.595
+
+Cloud executed :883 Tasks
+       Time Used:883.1839583333348
+       Cost:8.831839583333348
+
+Total Fog layer Power Utilised:1234198.5875
+
+You could see:
+              tasks-18-08-202512-33-41.txt for details on each tasks
+              slots-18-08-202512-33-41.txt for summary of each slot
+---------------------------------------

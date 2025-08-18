@@ -48,7 +48,7 @@ class DQNAgent:
         return model
 
     def load_mdl(self):
-        self.model.load_weights('weights_0500o.weights.h5')
+        self.model.load_weights('weights_0500.weights.h5')
         self.epsilon = 0.05
 
     def act(self, state, sim_time, sl_no):

@@ -27,8 +27,7 @@ for fr in ClusterRs:
         #create sensers
         # create a random device from the list
         s_typelist = [1, 2, 3, 4]
-#        s_type=random.choice(s_typelist)
-        s_type = j % 4 + 1
+        s_type=random.choice(s_typelist)
         s_type = 1
         ed = Sensor( "Sensor_"+str(fr.id)+"_"+str(j), s_type)
         #set the cluster id to newly created edge

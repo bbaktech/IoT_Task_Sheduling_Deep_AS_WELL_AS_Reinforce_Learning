@@ -42,57 +42,57 @@ Simulation Started
 Alpha:1.0, Beta:0.0, Gama:0.0
 Simulation Completed
 -----------Results--------------------
-Total Simulation Time:6000
-Total Number of Slots:200
-Total Number of Tasks:14328
+Total Simulation Time:15000
+Total Number of Slots:500
+Total Number of Tasks:35928
 
-max Timetaken for Tasks:57.00145833333359
+max Timetaken for Tasks:58.00166666666378
 min Timetaken for Tasks:1.3333333333333333
-avg TimeTaken for Tasks:3.9337268954731712
+avg TimeTaken for Tasks:3.9668371987024247
 
 Device:ClusterFR:2
-      Total Tasks Executed:4200
-      Total Busy Time:5854.5
-      Total Idle Time:145.5
-      Total Time:6000.0
-      CPU Utilization:97.575
-      Total Power Utilised:687619.6755
-      Throughput:0.7
+      Total Tasks Executed:10555
+      Total Busy Time:14716.0
+      Total Idle Time:284.0
+      Total Time:15000.0
+      CPU Utilization:98.10666666666667
+      Total Power Utilised:1721468.724
+      Throughput:0.7036666666666667
 
 Device:ClusterFR:3
-      Total Tasks Executed:2387
-      Total Busy Time:4153.0
-      Total Idle Time:1847.0
-      Total Time:6000.0
-      CPU Utilization:69.21666666666667
-      Total Power Utilised:583825.0
-      Throughput:0.3978333333333333
+      Total Tasks Executed:5845
+      Total Busy Time:10147.0
+      Total Idle Time:4853.0
+      Total Time:15000.0
+      CPU Utilization:67.64666666666666
+      Total Power Utilised:1453675.0
+      Throughput:0.38966666666666666
 
 Device:ClusterFR:4
-      Total Tasks Executed:3148
-      Total Busy Time:5032.0
-      Total Idle Time:968.0
-      Total Time:6000.0
-      CPU Utilization:83.86666666666667
-      Total Power Utilised:632896.0
-      Throughput:0.5246666666666666
+      Total Tasks Executed:7969
+      Total Busy Time:12678.0
+      Total Idle Time:2322.0
+      Total Time:15000.0
+      CPU Utilization:84.52
+      Total Power Utilised:1584984.0
+      Throughput:0.5312666666666667
 
 Device:ClusterFR:5
-      Total Tasks Executed:4037
-      Total Busy Time:5509.0
-      Total Idle Time:491.0
-      Total Time:6000.0
-      CPU Utilization:91.81666666666666
-      Total Power Utilised:677137.551
-      Throughput:0.6728333333333333
+      Total Tasks Executed:10137
+      Total Busy Time:13823.0
+      Total Idle Time:1177.0
+      Total Time:15000.0
+      CPU Utilization:92.15333333333334
+      Total Power Utilised:1694375.997
+      Throughput:0.6758
 
-Cloud executed :556 Tasks
-       Time Used:556.1158333333344
-       Cost:5.561158333333345
+Cloud executed :1422 Tasks
+       Time Used:1422.2962500000021
+       Cost:14.222962500000023
 
-Total Fog layer Power Utilised:2581478.2265
+Total Fog layer Power Utilised:6454503.720999999
 
 You could see:
-              tasks-13-08-202522-27-28.txt for details on each tasks
-              slots-13-08-202522-27-28.txt for summary of each slot
+              tasks-18-08-202509-52-48.txt for details on each tasks
+              slots-18-08-202509-52-48.txt for summary of each slot
 ---------------------------------------
