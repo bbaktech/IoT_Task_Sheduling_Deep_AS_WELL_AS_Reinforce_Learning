@@ -1,6 +1,6 @@
 
 from datetime import datetime 
-from config import ACTUATER_TYPE, CAMRA_PRO, CLOUD_COST_UNIT_TIME, CLOUD_CPU_SPEED, CPU_SPEED1, CPU_SPEED2, CPU_SPEED3, DATA_SIZE1, DATA_SIZE2, DATA_SIZE3, DATA_SIZE4, FD_BANDWIDTH1, FD_BANDWIDTH2, FD_BANDWIDTH3,  FD_CAPACITY1, FD_CAPACITY2, FD_CAPACITY3, FD_RAM1, FD_RAM2, FD_RAM3, GPSPOS_PRO, INDLOOP_PRO, INTERVEL_GAP, LATENCY_CS_FR, LATENCY_ED_FR, MAX_SIMULATION_TIME, MICWAVE_PRO, NO_INSTRUCTIONS1, NO_INSTRUCTIONS2, NO_INSTRUCTIONS3, NO_INSTRUCTIONS4, RAM_SWAP_UNIT, ROAD_DISPLAY, SENSER_TYPE, SLOT_TIME
+from config import ACTION_CLEAR_TRAFIC, ACTION_ON_VEHICLE, ACTUATER_TYPE, CLOUD_COST_UNIT_TIME, CLOUD_CPU_SPEED, CPU_SPEED1, CPU_SPEED2, CPU_SPEED3, DATA_SIZE1, DATA_SIZE2, DATA_SIZE3, DATA_SIZE4, FD_BANDWIDTH1, FD_BANDWIDTH2, FD_BANDWIDTH3,  FD_CAPACITY1, FD_CAPACITY2, FD_CAPACITY3, FD_RAM1, FD_RAM2, FD_RAM3,  INTERVEL_GAP, LATENCY_CS_FR, LATENCY_ED_FR, MAX_SIMULATION_TIME, NO_INSTRUCTIONS1, NO_INSTRUCTIONS2, NO_INSTRUCTIONS3, NO_INSTRUCTIONS4, RAM_SWAP_UNIT, SENSER_TYPE, SLOT_TIME, TRAFIC_LOCATION, VEHICLE_IDENTIFICATION
 import random
 
 g_jobserno = 0
@@ -18,8 +18,8 @@ resource_mg_string  = ['DEFAULT_RM' ,'GA_RM','AI_RM' ,'RL_RM']
 #         self.no_fognodes = 0.
 #         self.no_jobs= 0
 
-taskType_strings = ['CAMRA_SEN','GPSPOS_SEN','INDLOOP_SEN','MICWAVE_SEN','CONT_DISPLAY','ROAD_DISPLAY','CAMRA_PRO',
-                    'INDLOOP_PRO' ,'GPSPOS_PRO','MICWAVE_PRO','CAMRA_STORE','INDLOOP_STORE','GPSPOS_STORE','MICWAVE_STORE']
+taskType_strings = ['CAMRA_SEN','TRAFIC_SEN','VEHICLE_IDENTIFICATION','TRAFIC_LOCATION',
+                    'ACTION_ON_VEHICLE','ACTION_CLEAR_TRAFIC']
 
 class DeviceTime:
     def __init__(self):
@@ -114,10 +114,10 @@ class Task:
         match tsktype:
             case 1:
                 self.no_instructions = NO_INSTRUCTIONS1
-                self.dataBytes = DATA_SIZE1
+                self.dataBytes = DATA_SIZE2
             case 2:
                 self.no_instructions = NO_INSTRUCTIONS2
-                self.dataBytes = DATA_SIZE2
+                self.dataBytes = DATA_SIZE1
             case 3:
                 self.no_instructions = NO_INSTRUCTIONS3
                 self.dataBytes = DATA_SIZE3
@@ -127,21 +127,21 @@ class Task:
             case 5:
                 self.no_instructions = 0
                 self.dataBytes = 0
-            case 6:
-                self.no_instructions = 0
-                self.dataBytes = 0
-            case 7:
-                self.no_instructions = NO_INSTRUCTIONS1
-                self.dataBytes = DATA_SIZE1
-            case 8:
-                self.no_instructions = NO_INSTRUCTIONS2
-                self.dataBytes = DATA_SIZE2
-            case 9:
-                self.no_instructions = NO_INSTRUCTIONS3
-                self.dataBytes = DATA_SIZE3
-            case 10:
-                self.no_instructions = NO_INSTRUCTIONS4
-                self.dataBytes = DATA_SIZE4
+            # case 6:
+            #     self.no_instructions = 0
+            #     self.dataBytes = 0
+            # case 7:
+            #     self.no_instructions = NO_INSTRUCTIONS1
+            #     self.dataBytes = DATA_SIZE1
+            # case 8:
+            #     self.no_instructions = NO_INSTRUCTIONS2
+            #     self.dataBytes = DATA_SIZE2
+            # case 9:
+            #     self.no_instructions = NO_INSTRUCTIONS3
+            #     self.dataBytes = DATA_SIZE3
+            # case 10:
+            #     self.no_instructions = NO_INSTRUCTIONS4
+            #     self.dataBytes = DATA_SIZE4
             case _:
                 self.no_instructions = 0
                 self.dataBytes = 0
@@ -247,26 +247,28 @@ class Job:
         new_tasktype = ACTUATER_TYPE
         match self.tsk.task_type:
             case 1:
-                new_tasktype = CAMRA_PRO
+                new_tasktype = VEHICLE_IDENTIFICATION
                 self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
                 self.tsk.setSubmitime(slotno*SLOT_TIME)
             case 2:
-                new_tasktype = GPSPOS_PRO
+                new_tasktype = TRAFIC_LOCATION
                 self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
                 self.tsk.setSubmitime(slotno*SLOT_TIME)
             case 3:
-                new_tasktype = INDLOOP_PRO
+                new_tasktype = ACTION_ON_VEHICLE
                 self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
                 self.tsk.setSubmitime(slotno*SLOT_TIME)
             case 4:
-                new_tasktype =  MICWAVE_PRO
+                new_tasktype =  ACTION_CLEAR_TRAFIC
                 self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
                 self.tsk.setSubmitime(slotno*SLOT_TIME)
-            case self.tsk.task_type if self.tsk.task_type in [7,8,9,10]:
-                self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
-                self.tsk.setSubmitime(slotno*SLOT_TIME)
+            # case self.tsk.task_type if self.tsk.task_type in [7,8,9,10]:
+            #     self.tsk = Task(self.id, new_tasktype , self.tsk.destId, slotno + 1) 
+            #     self.tsk.setSubmitime(slotno*SLOT_TIME)
             case 5:
                 self.NoValidTask = True
+            case 6:
+                self.NoValidTask = True                
         return duration
 
     def get_noInstructions(self):

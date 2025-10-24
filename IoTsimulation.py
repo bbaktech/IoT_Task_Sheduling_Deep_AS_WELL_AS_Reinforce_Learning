@@ -26,9 +26,9 @@ for fr in ClusterRs:
     for j in range(numSens):
         #create sensers
         # create a random device from the list
-        s_typelist = [1, 2, 3, 4]
+        s_typelist = [1, 2]
         s_type=random.choice(s_typelist)
-        s_type = 1
+#        s_type = 1
         ed = Sensor( "Sensor_"+str(fr.id)+"_"+str(j), s_type)
         #set the cluster id to newly created edge
         ed.setClusterId(fr.id)
@@ -65,6 +65,7 @@ for device in Actuaters:
     print ("   " +device.name +' [Id:' + str(device.id) + "]  (Connected to ClusterFR:"+ str(device.connected_cl_id) + ")")
 
 print ('Resource managemnt stratergy: '+ resource_mg_string[RM_TYPE])
+print ('SLOT DURATION: '+ str(SLOT_TIME))
 print("Simulation Started")
 sl_no = 0
 sim_time = 0.
